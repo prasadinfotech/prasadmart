@@ -1,0 +1,112 @@
+echo "# amazon" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+#git branch -M main
+git remote add origin https://github.com/prasadinfotech/amazon.git
+git push -u origin #main
+
+
+
+known the cirrent URL 
+$ git remote -v
+origin  https://github.com/prasadinfotech/amazoc-moiles.git (fetch)
+origin  https://github.com/prasadinfotech/amazoc-moiles.git (push)
+
+$ git clone https://github.com/doocs/advanced-java.git
+cd (change directory)
+
+$ git log --oneline
+$ git log --author=sairam
+$ git log --since=yy-mm-dd
+$ git log --since=2015-01-01 --until=2022-05-29 --author=sairam --oneline
+
+
+
+
+
+
+29-05-2022
+****************
+1. rename repository
+2. add new URL
+3. collobartion access(revoke)
+4. delete repository 
+5. email notification 
+6. git logs 
+
+
+
+
+30-05-2022
+****************************
+Branching 
+ git branch 
+ git branch branchname
+ git checkout branchname 
+ git checkout -d branchname 
+
+
+ git checkout -b branchname 
+
+
+***********************************
+stash memory 
+
+ touch laptops
+  510  touch mobiles
+  511  git add .
+  512  git status
+  513  git stash save " laptops and mobiles '
+  514  git stash save " laptops and mobiles "
+  515  git statsh list
+  516  git stash list
+  517  touch a b c d e f
+  518  git add .
+  519  git status
+  520  git stash save "a" a
+  521  git stash list
+  522  git stash save "b"
+  523  git stash list
+  524  git stash save "b" b
+  525  git status
+  526  git apply
+  527  git stash apply
+  528  git stash save "a"
+  529  git statsh list
+  530  git stash list
+  531  git status
+  532  git stash pop stash@{2}
+  533  history
+
+
+
+  ******************************************* 
+
+  TAGS 
+
+ git init
+  480  touch 1 2 3 4 5 6 7 8 9
+  481  git add .
+  482  git commit -m" 1' 1
+  483  git commit -m "1' 1
+  484  git commit -m "1" 1
+  485  git commit -m "2" 2
+  486  git commit -m "3" 3
+  487  git commit -m "4" 4
+  488  git commit -m "5" 5
+  489  git commit -m "6" 6
+  490  git commit -m "7" 7
+  491  git commit -m "8" 8
+  492  git commit -m "9" 9
+  493  git log
+  494  git log --oneline
+  495  git tag pongalsale $ git log --oneline
+  496  git tag pongalsale 686b624
+  497  git tag
+  498  git remote add origin https://github.com/prasadinfotech/prasadmart.git
+  499  git push origin --tags
+  500  git push origin tagname
+  501  history
+
+
